@@ -1,1 +1,239 @@
+/* -- GERAL --*/
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #b7c1f0;
+  margin: 0; /* remove a borda branca */
+  padding: 0;
+}
+
+/* -- MENU -- */
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: #0d47a1;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.menu a:hover {
+  background-color: #0a4e9c;
+  border-radius: 5px;
+}
+
+/* -- PRODUTOS EM DESTAQUE -- */
+/* -------------------- PRODUTOS EM DESTAQUE -------------------- */
+.produtos-destaque {
+  padding: 40px;
+  background-color: #b7c1f0;
+}
+
+.produtos-destaque h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0d47a1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.produto {
+  background-color: rgb(142, 165, 226);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.produto h2 {
+  font-size: 16px;
+  color: #00101f;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.produto p {
+  font-size: 14px;
+  color: #05347c;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Estilo do <details> de descrição */
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #0d47a1;
+}
+
+.descricao {
+  font-size: 13px;
+  color: #444;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* --RODAPÉ -- */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0d47a1;
+  color: white;
+  font-size: 14px;
+  border-top: 1px solid #062d68;
+}
+
+/* -- PÁGINA EMPRESA -- */
+.sobre-empresa {
+  padding: 40px;
+  background-color: #b7c1f0;
+}
+
+.sobre-empresa h1 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+.descricao-empresa {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.texto-empresa {
+  flex: 1 1 45%;
+  font-size: 30px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+
+.imagem-empresa img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.trabalhe-container {
+  padding: 40px;
+  background-color: #dde3f8;
+}
+
+.trabalhe-container h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #0d47a1;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.trabalhe-texto {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #333;
+}
+.localizacao {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.localizacao h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.localizacao p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.mapa iframe {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.destaque-container {
+  padding: 40px;
+  background-color: #dde3f8;
+}
+
+.destaque-container h1 {
+  text-align: center;
+  color: #0d47a1;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.destaque-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.destaque-conteudo img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.destaque-texto {
+  max-width: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
 
