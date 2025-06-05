@@ -2,7 +2,7 @@
 body {
   font-family: "Arial", sans-serif;
   background-color: #b7c1f0;
-  margin: 0; /* remove a borda branca */
+  margin: 0; 
   padding: 0;
 }
 
@@ -34,7 +34,6 @@ body {
 }
 
 /* -- PRODUTOS EM DESTAQUE -- */
-/* -------------------- PRODUTOS EM DESTAQUE -------------------- */
 .produtos-destaque {
   padding: 40px;
   background-color: #b7c1f0;
@@ -235,5 +234,4 @@ footer {
   color: #333;
   line-height: 1.6;
 }
-
 
